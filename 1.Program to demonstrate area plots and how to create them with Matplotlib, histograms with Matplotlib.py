@@ -13,3 +13,21 @@ plt.fill_between(x, y, color="purple")
 
 # Display plot
 plt.show()
+
+
+
+histogram 
+
+# Generate random data for the histogram
+data = np.random.randn(1000)
+
+# Plotting a basic histogram
+plt.hist(data, bins=30, color="skyblue", edgecolor="black")
+
+# Adding labels and titles
+plt.xlabel("Values")
+plt.ylabel("Frequency")
+plt.title("Basic Histogram")
+
+# Display the plot
+plt.show()
